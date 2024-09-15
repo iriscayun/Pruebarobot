@@ -1,0 +1,25 @@
+public class Torso {
+    private String grosor;
+    private String colortorzo;
+
+    public String getGrosor() {
+        return grosor;
+    }
+
+    public void setGrosor(String grosor) {
+        this.grosor = grosor;
+    }
+
+    public String getColortorzo() {
+        return colortorzo;
+    }
+
+    public void setColortorzo(String colortorzo) {
+        this.colortorzo = colortorzo;
+    }
+
+    public void pelear() {
+        // Corrección del mensaje de texto
+        System.out.println("Este robot pelea con sus enemigos");
+    }
+}

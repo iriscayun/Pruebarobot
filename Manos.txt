@@ -1,0 +1,32 @@
+
+public class Manos {
+	
+
+private String dedos;
+public String getDedos() {
+	return dedos;
+}
+
+public void setDedos(String dedos) {
+	this.dedos = dedos;
+}
+
+public String getUñas() {
+	return uñas;
+}
+
+public void setUñas(String uñas) {
+	this.uñas = uñas;
+}
+
+private String uñas;
+ 
+	public void mover () {
+	System.out.println("Este robot mueve sus dedos"); 
+	 
+	}
+	 
+}
+
+
+

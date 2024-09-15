@@ -1,0 +1,28 @@
+
+public class Cabeza {
+	
+ private String tamaño;
+ public String getTamaño() {
+	return tamaño;
+}
+
+public void setTamaño(String tamaño) {
+	this.tamaño = tamaño;
+}
+
+public String getColordepelo() {
+	return colordepelo;
+}
+
+public void setColordepelo(String colordepelo) {
+	this.colordepelo = colordepelo;
+}
+
+private String colordepelo;
+ 
+ public void girar () {
+	 System.out.println("este robot gira su cabeza en 180 grados");
+ }
+	
+
+}

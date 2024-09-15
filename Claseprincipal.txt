@@ -1,0 +1,44 @@
+
+public class Claseprincipal {
+	
+	    public static void main(String[] args) {
+	        
+	        Manos manosRobot = new Manos();
+	        manosRobot.setDedos("10 dedos en total");
+	        manosRobot.setUñas("Uñas de plata");
+
+	        
+	        System.out.println("Totalidad de Dedos : " + manosRobot.getDedos());
+	        System.out.println("Uñas : " + manosRobot.getUñas());
+	        manosRobot.mover();
+
+	      
+	        Piernas piernasRobot = new Piernas();
+	        piernasRobot.setColor("Gris");
+	        piernasRobot.setMaterial("cobre");
+
+	      
+	        System.out.println("Color de las piernas: " + piernasRobot.getColor());
+	        System.out.println("Material de las piernas: " + piernasRobot.getMaterial());
+	        piernasRobot.resistir();
+
+	 
+	        Torso torsoRobot = new Torso();
+	        torsoRobot.setGrosor("Ancho");
+	        torsoRobot.setColortorzo("Azul");
+
+	  
+	        System.out.println("Grosor del torso: " + torsoRobot.getGrosor());
+	        System.out.println("Color del torso: " + torsoRobot.getColortorzo());
+	        torsoRobot.pelear();
+
+	
+	        Cabeza cabezaRobot = new Cabeza();
+	        cabezaRobot.setTamaño("Grande");
+	        cabezaRobot.setColordepelo("Negro brillante");
+
+	        System.out.println("Tamaño de la cabeza: " + cabezaRobot.getTamaño());
+	        System.out.println("Color de pelo: " + cabezaRobot.getColordepelo());
+	        cabezaRobot.girar();
+	    }
+	}
